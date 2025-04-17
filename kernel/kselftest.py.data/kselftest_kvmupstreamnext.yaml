@@ -1,5 +1,5 @@
-type: 'upstream'
-location: "https://git.kernel.org/pub/scm/linux/kernel/git/next/linux-next.git/snapshot/master.tar.gz"
+type: 'custom'
+linux_dir: "/home/VT_BUILD/linux"
 kself_args: 'summary=1'
 component: !mux
     kvm:

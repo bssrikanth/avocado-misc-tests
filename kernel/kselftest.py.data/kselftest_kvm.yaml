@@ -1,6 +1,5 @@
-type: 'upstream'
-location: "https://github.com/torvalds/linux/archive/master.zip"
-#branch: 'snp-host-latest-kselfv3'
+type: 'custom'
+linux_dir: "/home/VT_BUILD/linux"
 kself_args: 'summary=1'
 component: !mux
     kvm:

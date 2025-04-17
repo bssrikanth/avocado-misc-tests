@@ -1,5 +1,5 @@
-type: 'upstream'
-location: "https://github.com/bssrikanth/linux/archive/refs/heads/snp-selftestv4.zip"
+type: 'custom'
+linux_dir: "/home/VT_BUILD/linux"
 kself_args: 'summary=1'
 component: !mux
     kvm:
